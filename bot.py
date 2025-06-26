@@ -33,8 +33,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Xush kelibsiz! 3 xonali kodni kiriting yoki admin uchun /upload buyrug'ini yozing.")
     else:
         buttons = [
-            [InlineKeyboardButton("📢 Kanal 1", url="https://t.me/informatiklaruzbN1")],
-            [InlineKeyboardButton("📢 Kanal 2", url="https://t.me/informatiklaruzbN1")],
+            [InlineKeyboardButton("📢 Kanal 1", url=" @trading_uzz_admin")],
+            [InlineKeyboardButton("📢 Kanal 2", url=" @trading_uzz_admin")],
             [InlineKeyboardButton("✅ Obuna bo‘ldim", callback_data="check_again")]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
