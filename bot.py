@@ -11,7 +11,7 @@ BOT_TOKEN = "8046803096:AAH625U_9kRIErhsgZ8Dl7-qOoaXFAzb2CQ"  # <-- bu yerga bot
 VIDEO_DICT = {}
 
 # Kanallar ro'yxati (obuna bo'lish majburiy)
-REQUIRED_CHANNELS = ["@kanal_nomi1", "@kanal_nomi2"]
+REQUIRED_CHANNELS = ["@trading_uzz_admi", "@trading_uzz_admi"]
 
 # Obuna tekshirish funksiyasi
 async def check_subscription(user_id, bot):
@@ -33,8 +33,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Xush kelibsiz! 3 xonali kodni kiriting yoki admin uchun /upload buyrug'ini yozing.")
     else:
         buttons = [
-            [InlineKeyboardButton("📢 Kanal 1", url=" @trading_uzz_admin")],
-            [InlineKeyboardButton("📢 Kanal 2", url=" @trading_uzz_admin")],
+            [InlineKeyboardButton("📢 Kanal 1", url=" t.me/ShoshilinchUz")],
+            [InlineKeyboardButton("📢 Kanal 2", url=" t.me/ShoshilinchUz")],
             [InlineKeyboardButton("✅ Obuna bo‘ldim", callback_data="check_again")]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
