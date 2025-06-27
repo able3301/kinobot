@@ -33,7 +33,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Xush kelibsiz! 3 xonali kodni kiriting yoki admin uchun /upload buyrug'ini yozing.")
     else:
         buttons = [
-            [InlineKeyboardButton("📢 Kanal 1", url=" t.me/ShoshilinchUz")],
+            [InlineKeyboardButton("📢 Kanal 1", url=" https://t.me/KINOSPEEDS")],
             [InlineKeyboardButton("📢 Kanal 2", url=" t.me/ShoshilinchUz")],
             [InlineKeyboardButton("✅ Obuna bo‘ldim", callback_data="check_again")]
         ]
