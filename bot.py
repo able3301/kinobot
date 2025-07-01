@@ -5,7 +5,7 @@ from telegram.ext import (
 )
 
 ADMIN_ID = 350513135 # <-- o'zingizning Telegram ID'ingizni yozing
-BOT_TOKEN = "8046803096:AAH625U_9kRIErhsgZ8Dl7-qOoaXFAzb2CQ"  # <-- bu yerga bot tokenni yozing
+BOT_TOKEN = ""  # <-- bu yerga bot tokenni yozing
 
 # Video bazasi: "kod": file_id
 VIDEO_DICT = {}
